@@ -30,7 +30,7 @@ The system operates as a **State Machine**, where a shared `ResearchState` objec
 
 ## 🛠️ Tech Stack
 * **Orchestration:** LangGraph / LangChain Core
-* **Intelligence:** Google Gemini 1.5 Flash
+* **Intelligence:** Google Gemini 2.5 Flash
 * **Search / Tooling:** Tavily API (Optimized for LLM context windows)
 * **Data Validation:** Pydantic (v2)
 * **Environment:** Python 3.10+, `uv`, `python-dotenv`
@@ -46,7 +46,6 @@ The system operates as a **State Machine**, where a shared `ResearchState` objec
 ```
 
 4. Create a `.env` file in the root directory:
-```text
 GOOGLE_API_KEY=your_gemini_key
 TAVILY_API_KEY=your_tavily_key
 
@@ -58,5 +57,6 @@ TAVILY_API_KEY=your_tavily_key
 uv run python main.py
 
 ```
+
 
 
