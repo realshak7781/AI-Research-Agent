@@ -1,0 +1,43 @@
+# =========================
+# Python & Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# =========================
+# Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Secrets & Configs
+# =========================
+.env
+*.env
+.env.local
+
+# =========================
+# Editor & IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Project Specific (Optional)
+# =========================
+# Uncomment these if you start saving reports to your folder
+# outputs/
+# generated_reports/
+# *.md
