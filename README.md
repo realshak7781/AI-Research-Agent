@@ -52,9 +52,10 @@ TAVILY_API_KEY=your_tavily_key
 
 5. Ignite the agent:
 ```bash
-uv run python main.py
+uv run python final_langraph_logic.py
 
 ```
+
 
 
 
