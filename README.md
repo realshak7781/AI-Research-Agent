@@ -42,10 +42,8 @@ The system operates as a **State Machine**, where a shared `ResearchState` objec
 3. Sync the environment:
    ```bash
    uv sync
-
-```
-
 4. Create a `.env` file in the root directory:
+  ```bash
 GOOGLE_API_KEY=your_gemini_key
 TAVILY_API_KEY=your_tavily_key
 
@@ -57,6 +55,7 @@ TAVILY_API_KEY=your_tavily_key
 uv run python main.py
 
 ```
+
 
 
 
